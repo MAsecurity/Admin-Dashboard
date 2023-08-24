@@ -75,6 +75,60 @@
   grid-row-start: 1;
   z-index: 10;
   box-shadow: 0px 2px 4px gray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 3fr;
+}
+
+.first-section-of-header {
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.search-bar {
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: 1fr 15fr;
+}
+.search-bar span {
+  grid-column-start: 1;
+}
+
+.search-bar input {
+  grid-column-start: 2;
+  padding: 5px;
+  font-size: 15px;
+  outline: none !important;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 2px;
+  background-color: rgb(163, 163, 163);
+}
+
+.search-bar input:focus {
+  border: #0ea5e9 2px solid;
+}
+
+.profile-and-notification-icon {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.profile-and-notification-icon img {
+  width: 35px;
+  height: auto;
+  border-radius: 50%;
+  
+
+}
+
+.second-section-of-header {
+  background-color: green;
+  grid-row-start: 2;
 }
 
 .projects {

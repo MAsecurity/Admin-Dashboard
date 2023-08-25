@@ -59,6 +59,7 @@
   font-size: 25px  !important;
   margin-right: 25px;
   vertical-align: top;
+  cursor: pointer;
 }
 
 .last-list-of-sidebar {
@@ -84,14 +85,14 @@
   grid-row-start: 1;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   padding: 10px 20px;
 }
 .search-bar {
   grid-column-start: 1;
   display: grid;
-  grid-template-columns: 1fr 15fr;
+  grid-template-columns: 1fr 20fr;
 }
 .search-bar span {
   grid-column-start: 1;
@@ -119,7 +120,7 @@
   align-items: center;
 }
 .profile-and-notification-icon img {
-  width: 35px;
+  width: 40px;
   height: auto;
   border-radius: 50%;
   
@@ -127,8 +128,67 @@
 }
 
 .second-section-of-header {
-  background-color: green;
   grid-row-start: 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 50px;
+}
+
+.profile-intro {
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  
+}
+.profile-intro img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  grid-column-start: 1;
+}
+
+.profile-intro .introduction {
+  grid-column-start: 2;
+}
+
+.thebuttons {
+  grid-column-start: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+
+  
+}
+
+.thebuttons buttons {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #0ea5e9;
+  color: rgb(240, 240, 240);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s;
+  cursor: pointer;
+  
+}
+.thebuttons buttons:hover {
+  color: #0ea5e9;
+  background-color: rgb(240, 240, 240);
+  opacity: 0.8;
+  border: #0ea5e9 2px solid;
+  
+}
+.thebuttons buttons:active {
+  color: #0ea5e9;
+  background-color: rgb(240, 240, 240);
+  opacity: 0.5;
+  border: #0ea5e9 2px solid;
 }
 
 .projects {
@@ -139,5 +199,6 @@
 ul li {
   list-style-type: none;
   cursor: pointer;
+  
 }
 

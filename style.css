@@ -298,6 +298,35 @@ ul li {
   margin-bottom: 10px;
 }
 
+.trending {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  padding: 30px;
+}
+
+.John , .Khalid , .Ibrahim, .Mohamed{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 5px;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: bold;
+}
+.description-of-project {
+  font-size: 13px;
+  color: rgb(99, 99, 99);
+}
+
+.John img , .Khalid img, .Ibrahim img , .Mohamed img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
 
 
 

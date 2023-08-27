@@ -7,3 +7,4 @@ This project is about creating an Admin dashboard for a project-based community,
 ## What i learned
 - CSS Grid
 - Positioning Grid Elements
+- Advanced Grid Properties such as (auto-fit, min, max, fractional units (1fr..)) and so on.
